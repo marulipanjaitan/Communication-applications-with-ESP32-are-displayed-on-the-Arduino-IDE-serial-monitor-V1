@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send" />
+
+    <EditText
+        android:id="@+id/etData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter data"
+        android:minHeight="200dp" />
+
+    <TextView
+        android:id="@+id/tvData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Received data wi ll appear here" />
+
+    <TextView
+        android:id="@+id/tvMacAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MAC Address: N/A"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tvIpAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IP Address: N/A"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
